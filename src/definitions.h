@@ -25,7 +25,14 @@
 
 #endif // WIN32 || __WINDOWS__
 
-#define DXML "data/xml/"
-#define EXML ".xml"
+const char * felog = ".log";
+const char * fexml = ".xml";
+
+
+const char * dlogs = "logs/";
+const char * ddata = "data/";
+const char * d_xml = "data/xml/";
+#define DXML d_xml
+#define EXML fexml
 
 #endif // DEFINITIONS_H

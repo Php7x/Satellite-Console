@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Ext lib">
+      <UniqueIdentifier>{a312521b-57f0-4c72-b194-cfc1597a5efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ext lib\rapidxml">
+      <UniqueIdentifier>{b0a4d68d-3dbe-4b58-bb8b-e1060da218d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ext lib\pugixml">
+      <UniqueIdentifier>{0a60dbf3-1068-4fca-97b7-412d856694b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tool_xml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\satellite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidxml\rapidxml.hpp">
+      <Filter>Ext lib\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidxml\rapidxml_iterators.hpp">
+      <Filter>Ext lib\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidxml\rapidxml_print.hpp">
+      <Filter>Ext lib\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidxml\rapidxml_utils.hpp">
+      <Filter>Ext lib\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ext\pugi\pugiconfig.hpp">
+      <Filter>Ext lib\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ext\pugi\pugixml.hpp">
+      <Filter>Ext lib\pugixml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\tool_xml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\satellite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ext\pugi\pugixml.cpp">
+      <Filter>Ext lib\pugixml</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
